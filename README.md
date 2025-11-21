@@ -22,28 +22,61 @@ Permite analizar métodos HTTP, CORS, códigos de estado y tiempos de respuesta 
 
 ---
 
-## Instrucciones de como ejecutar el proyecto 
-1. Clonar el repositorio:
+## 🔧 Instrucciones de cómo ejecutar el proyecto
+
+1. **Clonar el repositorio:**
+
    git clone https://github.com/usuario/repositorio.git
-2. Entrar al proyecto
-  cd repositorio
-3.Abrirlo en VS Code
-  code .
-4.Instalar extensión Live Server
-  (si ya está instalada, pasar al paso siguiente)
-5.Abrir el archivo index.html y presionar:
-  Click derecho → "Open with Live Server"
-6.El navegador abrirá la página en:
-  http://127.0.0.1:5500/
-7.Abrir DevTools → Network para analizar headers, CORS y tiempos.
- Servicio consumido
- Se utiliza el mock público:
- https://jsonplaceholder.typicode.com/posts/1
- Este endpoint soporta:
- GET → 200
- POST → 201
- PUT → 200
- DELETE → 200
+
+   
+2. **Entrar al proyecto**
+
+   cd repositorio
+
+   
+3. **Abrirlo en VS Code**
+
+   code .
+
+   
+4. **Instalar la extensión Live Server**
+
+   (Si ya está instalada, pasar al paso siguiente)
+
+   
+5. **Abrir el archivo index.html y ejecutar con Live Server**
+
+   Click derecho → "Open with Live Server"
+
+   
+6. **El navegador abrirá la página en:**
+
+   http://127.0.0.1:5500/
+
+   
+7. **Abrir DevTools → Network**
+
+   Para analizar headers, CORS, tiempos de respuesta y códigos de estado.
+
+
+---
+
+## 🌐 Servicio consumido
+
+Se utiliza el mock público:
+
+https://jsonplaceholder.typicode.com/posts/1
+
+
+### Métodos soportados:
+
+| Método | Código |
+|--------|--------|
+| GET    | 200    |
+| POST   | 201    |
+| PUT    | 200    |
+| DELETE | 200    |
+
 
 ## Tabla de registros de peticion: 
 | Método | URL                                                                                          | Código de estado | Tiempo respuesta | Observaciones CORS                                |
